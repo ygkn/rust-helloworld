@@ -1,0 +1,5 @@
+# .cargo/config
+[build]
+rustflags=[
+  "-C", "link-args=-nostdlib",
+]
